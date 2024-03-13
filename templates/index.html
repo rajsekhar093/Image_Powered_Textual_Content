@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width,intial-scale=1.0">
+<title>Image Powered Textual Content</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="nav1"><a href="{{ url_for('index')}}">CAPTIONIFY</a></div>
+  	  <nav>
+  	    <ul>
+  	      <li><a href="{{ url_for('index')}}">HOME</a></li>
+  	      <li><a href="{{url_for('about')}}">ABOUT</a></li>
+  	      <li><a href="{{ url_for('contact')}}">CONTACT</a></li>
+  	    </ul>
+      </nav>
+    </div>
+    <div class="row">
+   	  <div class="col">
+   	    <h2>Image Powered Textual Content</h2>
+        <form action="explore" method="POST">
+          <input type="submit" value="Explore"/>
+        </form>         
+      </div>
+  
+      <div class="col">
+        <div class="card card1">    
+        </div>
+        <div class="card card2">    
+        </div>
+        <div class="card card3">    
+        </div>
+        <div class="card card4">    
+        </div>
+      </div>
+ 
+ 
+    </div>
+  </div>
+  </body>
+</html>	 
+  	    
+  		
+    
